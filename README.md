@@ -1,30 +1,37 @@
-# React + TypeScript + Vite
+# Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Planner is a travel organizer app developed as part of a front-end development course in ReactJS.
 
-Currently, two official plugins are available:
+This project applies concepts such as Properties, State, and Components, utilizes TypeScript for type checking, Vite for tooling, TailwindCSS for responsive design, and integrates with a Node.js API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The app allows users to register a trip, invite participants, and view detailed trip information including listed activities, invited guests, and important links.
 
-## Expanding the ESLint configuration
+## Usage
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Register a Trip**: Users can create a new trip by providing trip details.
 
-- Configure the top-level `parserOptions` property like this:
+2. **Invite Participants**: Invite people to join the trip.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. **View Trip Details**: See a detailed view of the trip, including activities, invited guests, and important links.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Features
+
+- **ReactJS**: Utilizes modern React concepts such as properties, state, and components.
+- **TypeScript**: Provides static type checking to catch errors early and improve code quality.
+- **Vite**: Fast and modern development environment for building the application.
+- **TailwindCSS**: Ensures a responsive and visually appealing user interface.
+- **Node.js API Consumption**: Connects to a Node.js backend to fetch and manage trip data.
+- **Calendar Picker**: Allows users to select dates for their trips easily.
+
+## Installation
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/thomasdev5832/nlw-frontend-react
+   cd nlw-frontend-react
+   ```
+
+2. Install dependencies: `npm install `
+
+3. Start the development server: `npm run dev`
