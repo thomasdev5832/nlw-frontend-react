@@ -6,6 +6,16 @@ This project applies concepts such as Properties, State, and Components, utilize
 
 The app allows users to register a trip, invite participants, and view detailed trip information including listed activities, invited guests, and important links.
 
+## Images
+
+![home](src/assets/start-page-01.png)
+
+![home-02](src/assets/start-page-02.png)
+
+![confirm-trip](src/assets/confirm-trip.png)
+
+![activities-board](src/assets/activities-board.png)
+
 ## Usage
 
 1. **Register a Trip**: Users can create a new trip by providing trip details.
