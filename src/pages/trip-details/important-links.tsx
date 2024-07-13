@@ -23,13 +23,13 @@ export function ImportantLinks() {
         <div className="flex items-center justify-between gap-4">
           <div className="space-y-1.5">
             <span className="block font-medium text-zinc-100">
-              Reserva do AirBnb
+              Lista de Compras
             </span>
             <a
               href="#"
               className="block font-medium text-zinc-400 truncate hover:text-zinc-200"
             >
-              https://www.airbnb.com.br/rooms/6765834652657346538745637856397
+              https://www.amazon.com.br/hz/wishlist/6765834652657346538745637856397
             </a>
           </div>
           <Link2 className="text-zinc-400 size-5 shrink-0" />
